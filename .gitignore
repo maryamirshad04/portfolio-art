@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+.DS_Store
+# keep your raw art/videos out of git
+/my-art
+/my-videos
