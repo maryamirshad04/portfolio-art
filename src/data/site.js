@@ -2,9 +2,9 @@
 // The three "music player" windows on the About page come from `tracks`.
 
 export const site = {
-  name: 'Mary',
+  name: 'Maryam',
   tagline: 'digital art + animation',
-  url: 'mary.art', // only shown in the fake browser address bar
+  url: 'maryam.art', // only shown in the fake browser address bar
   mood: 'sleepy but still drawing',
   nowPlaying: 'lo-fi beats to draw to',
   tubeLogo: ['Toon', 'Tube'],
@@ -13,13 +13,13 @@ export const site = {
   tracks: [
     {
       file: 'hello.mp3',
-      title: "hi, i'm Mary",
+      title: "hi, i'm Maryam",
       sprite: 'heart', // heart | star | flower  (or set image: 'https://...' to use your own)
       bg: '#7ad9c8',
       seconds: 206,
       start: 7,
       fields: [
-        { label: 'Artist', value: 'Mary' },
+        { label: 'Artist', value: 'Maryam' },
         { label: 'Makes', value: 'digital art + short animations' },
         { label: 'Vibe', value: 'soft, weird, a little glitchy' },
       ],
@@ -49,7 +49,7 @@ export const site = {
           label: 'The note',
           long: true,
           value:
-            'I wanted my art to have a home of its own, away from feeds and follower counts. Everything here is drawn and animated by me, and it keeps growing.',
+            'I wanted my art to have a home of its own. Everything here is drawn and animated by me, and it keeps growing.',
         },
         { label: 'New stuff', value: "added when it's finished, not perfect" },
       ],
